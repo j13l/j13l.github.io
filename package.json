@@ -10,7 +10,6 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public -b master",
     "serve": "gatsby serve"
   },
   "dependencies": {
@@ -34,7 +33,6 @@
   },
   "devDependencies": {
     "eslint": "^5.9.0",
-    "eslint-plugin-react": "^7.11.1",
-    "gh-pages": "^2.0.1"
+    "eslint-plugin-react": "^7.11.1"
   }
 }
