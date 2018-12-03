@@ -3,10 +3,12 @@ import styled from "styled-components";
 import { Helmet } from "react-helmet";
 import Header from "../layout/Header";
 import Footer from "../layout/Footer";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 
 const Wrapper = styled.div`
-  margin: 3rem auto;
-  max-width: 680px;
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 42rem;
 `;
 
 const Layout = styled.div`
@@ -27,13 +29,13 @@ export default () => (
       <p>I build delightful digital products for a living - and for fun.</p>
       <p>
         To avoid{" "}
-        <a
+        <OutboundLink
           href="http://cdixon.org/2009/09/19/climbing-the-wrong-hill/"
           target="_blank"
           rel="noopener noreferrer"
         >
           climbing the wrong hill
-        </a>
+        </OutboundLink>
         , I've spent the past decade wearing many hats{" "}
         <span role="img" aria-label="tophat">
           {" "}
@@ -42,9 +44,13 @@ export default () => (
         . My "Greatest Hits" album includes me as a Software Developer,
         Engineering Manager, Product Manager, UX Designer. One (intense) song
         would be about the time we've founded{" "}
-        <a href="https://hipwerk.com" target="_blank" rel="noopener noreferrer">
+        <OutboundLink
+          href="https://hipwerk.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           hipwerk
-        </a>{" "}
+        </OutboundLink>{" "}
         and launched startup after startup. 🚀
       </p>
       <p>
@@ -65,13 +71,13 @@ export default () => (
           ⚛️
         </span>
         React.js developer at{" "}
-        <a
+        <OutboundLink
           href="https://www.tutti.ch"
           target="_blank"
           rel="noopener noreferrer"
         >
           tutti.ch
-        </a>{" "}
+        </OutboundLink>{" "}
         in lovely{" "}
         <span role="img" aria-label="Switzerland">
           🇨🇭
