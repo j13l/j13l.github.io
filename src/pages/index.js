@@ -63,7 +63,7 @@ export default () => (
         <br />
         Each role shaped me in a different way.
       </p>
-      <h2>What now?</h2>
+      <h2>What next?</h2>
       <p>
         Drawing a perfect circle, I'm back to dev and enjoying it a lot. I
         currently work as a{" "}
