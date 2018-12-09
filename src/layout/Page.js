@@ -9,6 +9,10 @@ export const Page = ({ children }) => (
       <title>
         Adam Juras - Front-end Developer - Javascript, React.js & friends.{" "}
       </title>
+      <meta
+        name="description"
+        content="Recovering ex-entrepreneur, aspiring future founder."
+      />
       <link rel="canonical" href="https://adamjuras.com" />
     </Helmet>
     <Layout>{children}</Layout>
