@@ -24,11 +24,11 @@ const Adam = styled(Image)`
   flex-shrink: 0;
 `;
 
-export default () => (
+export const Header = () => (
   <Bio>
     <Adam />
     <Greeting>
-      Hi, I'm Adam Juras{" "}
+      Hi, I'm Adam{" "}
       <span role="img" aria-label="wave">
         👋
       </span>

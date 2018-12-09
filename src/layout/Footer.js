@@ -16,7 +16,7 @@ const references = [
   { title: "Twitter", link: "https://mobile.twitter.com/jurasadam" }
 ];
 
-export default () => {
+export const Footer = () => {
   return (
     <>
       <strong>Find me on:</strong>
