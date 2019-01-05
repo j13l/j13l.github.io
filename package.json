@@ -33,7 +33,7 @@
     "typography-theme-parnassus": "^0.15.10"
   },
   "devDependencies": {
-    "eslint": "^5.9.0",
+    "eslint": "^5.12.0",
     "eslint-plugin-react": "^7.11.1"
   }
 }
