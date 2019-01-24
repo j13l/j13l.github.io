@@ -7,7 +7,7 @@ export const Page = ({ children }) => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>
-        Adam Juras - Front-end Developer - Javascript, React.js & friends.{" "}
+        Adam Juras - Front-End Developer - Javascript, React.js & friends.{" "}
       </title>
       <meta
         name="description"
