@@ -9,6 +9,10 @@ export default () => (
     <p>I build delightful digital products for a living - and for fun.</p>
     <p>
       To avoid{" "}
+      <span role="img" aria-label="climber">
+        {" "}
+        🧗‍
+      </span>{" "}
       <OutboundLink
         href="http://cdixon.org/2009/09/19/climbing-the-wrong-hill/"
         target="_blank"
@@ -16,41 +20,34 @@ export default () => (
       >
         climbing the wrong hill
       </OutboundLink>
-      , I've spent the past decade wearing many hats{" "}
-      <span role="img" aria-label="tophat">
+      , I spent the past decade wearing many hats. I contributed to many digital
+      products writing software in Javascript, Python & PHP, managed an awesome
+      team of engineers, designed the UI of some small (but ambitious!) startups
+      ,
+      <span role="img" aria-label="rocket">
         {" "}
-        🎩
-      </span>
-      . My "Greatest Hits" album includes me as a Software Developer,
-      Engineering Manager, Product Manager, UX Designer. One (intense) song
-      would be about the time we've founded{" "}
+        🚀
+      </span>{" "}
+      founded{" "}
       <OutboundLink
         href="https://hipwerk.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        hipwerk
+        hipwerk.com
       </OutboundLink>{" "}
-      and launched startup after startup. 🚀
+      and helped my favorite Swiss marketplace grow as a Product Manager.
     </p>
     <p>
-      I also played professional{" "}
+      I also played professional basketball{" "}
       <span role="img" aria-label="basketball">
         🏀
-      </span>
-      basketball for a short time, but that’s a different story.
-      <br />
-      <br />
-      Each role shaped me in a different way.
+      </span>{" "}
+      for a short time, but that’s a different story.
     </p>
-    <h2>What next?</h2>
+    <h2>Fast-forward to the present</h2>
     <p>
-      Drawing a perfect circle, I'm back to dev and enjoying it a lot. I
-      currently work as a{" "}
-      <span role="img" aria-label="atom">
-        ⚛️
-      </span>
-      React.js developer at{" "}
+      I spend most of my waking hours being the CTO of{" "}
       <OutboundLink
         href="https://www.tutti.ch"
         target="_blank"
@@ -58,7 +55,7 @@ export default () => (
       >
         tutti.ch
       </OutboundLink>{" "}
-      in lovely{" "}
+      , living in lovely{" "}
       <span role="img" aria-label="Switzerland">
         🇨🇭
       </span>
