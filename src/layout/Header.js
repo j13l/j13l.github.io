@@ -6,7 +6,7 @@ const Bio = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 2rem 0;
+  margin: 0 0 2rem 0;
 
   @media (max-width: 430px) {
     flex-direction: column;
