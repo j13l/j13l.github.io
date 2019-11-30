@@ -47,7 +47,7 @@ export default () => (
     </p>
     <h2>Fast-forward to the present</h2>
     <p>
-      I spend most of my waking hours being the CTO of{" "}
+      I spend most of my waking hours as CTO of{" "}
       <OutboundLink
         href="https://www.tutti.ch"
         target="_blank"
@@ -55,7 +55,7 @@ export default () => (
       >
         tutti.ch
       </OutboundLink>{" "}
-      , living in lovely{" "}
+      in lovely{" "}
       <span role="img" aria-label="Switzerland">
         🇨🇭
       </span>
