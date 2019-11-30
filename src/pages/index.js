@@ -39,11 +39,11 @@ export default () => (
       and helped my favorite Swiss marketplace grow as a Product Manager.
     </p>
     <p>
-      I also played professional basketball{" "}
+      I also played professional{" "}
       <span role="img" aria-label="basketball">
         🏀
       </span>{" "}
-      for a short time, but that’s a different story.
+      basketball for a short time, but that’s a different story.
     </p>
     <h2>Fast-forward to the present</h2>
     <p>
