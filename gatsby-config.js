@@ -31,8 +31,7 @@ module.exports = {
         trackingId: "UA-130253895-1",
         // Puts tracking script in the head instead of the body
         head: false,
-        anonymize: true,
-        respectDNT: true
+        anonymize: true
       }
     },
     `gatsby-plugin-react-helmet`,
